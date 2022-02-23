@@ -1,0 +1,74 @@
+
+body {
+	/* font-family: 'Raleway', sans-serif; */
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+.black {
+	background: black;
+}
+
+.white {
+	background: white;
+}
+
+.notext {
+	color: white;
+	margin: 0;
+	padding: 0;
+
+}
+
+.yestext {
+	color: grey;
+	margin: 0;
+	padding: 0;
+}
+
+.time {
+	margin: 1vmin;
+}
+
+#textbox {
+	display: none;
+	text-align: center;
+	z-index: 0;
+}
+
+#countdownbox {
+	display: none;
+	text-align: center;
+	z-index: 0;
+	position: absolute;
+	bottom: 5%;
+	width:100%;
+	overflow: visible;
+}
+
+#countdownboxinner {
+	/* font-size: 60px; */
+	font-size: 8vmin;
+	margin: auto;
+}
+
+#text {
+	/* font-size: 400px; */
+	font-size: 40vmin;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+canvas {
+	display: block;
+	/* position: relative; */
+	position: absolute;
+	z-index: 1;
+	pointer-events: none;
+}
+
