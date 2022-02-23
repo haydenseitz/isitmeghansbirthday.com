@@ -1,5 +1,5 @@
 var debug = false;
-debug = true;
+// debug = true;
 
 // set cache
 sessionStorage.setItem('bday','false');
@@ -199,6 +199,6 @@ $(document).ready(function(){
 	});
 
 	var now = new Date();
-	//now = new Date(2018,month,'1','00','00')
+	// now = new Date(2018,month,'1','00','00')
 	check_countdown(now);
 });
